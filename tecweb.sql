@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 24-Abr-2019 às 05:55
+-- Generation Time: 25-Abr-2019 às 22:19
 -- Versão do servidor: 10.1.38-MariaDB
 -- versão do PHP: 7.3.4
 
@@ -40,10 +40,12 @@ CREATE TABLE `tecweb` (
 --
 
 INSERT INTO `tecweb` (`id`, `nome`, `dataNascimento`, `salario`) VALUES
-(4, 'Carlos', '1961-12-09', 4525),
-(8, 'Amanda', '1990-03-22', 4215),
-(10, 'Marta', '1998-12-02', 1950),
-(11, 'Vanessa', '1983-03-15', 3100);
+(8, 'Amanda', '1990-03-22', 4215.55),
+(10, 'Kevin', '1998-12-02', 2000.37),
+(12, 'Carlos', '1958-05-18', 4695.74),
+(13, 'Lara', '1972-01-17', 74750.5),
+(14, 'Leonardo', '1965-04-03', 100654),
+(18, 'Joice', '2000-12-21', 12215.2);
 
 --
 -- Indexes for dumped tables
@@ -63,7 +65,7 @@ ALTER TABLE `tecweb`
 -- AUTO_INCREMENT for table `tecweb`
 --
 ALTER TABLE `tecweb`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
